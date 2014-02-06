@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html>
+<head>    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+    <title>%title%</title>
+    <meta name="description" content="%meta_desc%" />
+    <meta name="keywords" content="%meta_key%" />
+    <link rel="stylesheet" href="%adress%css/main.css" charset="utf-8" />
+</head>
+ 
+<body>
+    <div id="content">
+        <div id="header">
+            <h2>Шапка БИБЛИОТЕКИ</h2>
+        </div>
+    </div>
+    <hr />
+    <div id="maincontent">
+        <div id="left">
+            <h2>Жанры</h2>
+            <ul>%menu%</ul>
+            %auth_user%
+            <h2>Вход на сайт</h2>
+            <p class="message">Неверное имя пользователя и/или пароль</p>
+            
+            <form name="auth" action="#" method="post">
+                <table>
+                    <tr>
+                        <td>Логин</td>
+                        <td>
+                            <input type="text" name="login"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Пароль</td>
+                        <td>
+                            <input type="password" name="password"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right">
+                            <input type="submit" name="auth" value="Войти"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="right">
+                            <a href="#">Зарегистрироваться</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            
+        </div>
+        <div id="right">
+            <form name="search" action="#" method="get">
+                <p>
+                    Поиск: <input type="text" name="words" />
+                </p>
+                <p>
+                    <input type="submit" name="search" value="искать" />
+                </p>
+            </form>
+            <h2>Реклама</h2>
+            <div class="banner">Тут код баннера</div>
+            <div class="banner">Тут код баннера</div>            
+            
+        </div>
+        <div id="center">
+            <h1>Заголовок на главной странице</h1>
+            <p>текст на главной странице</p>
+            <p>текст на главной странице</p>
+            <p>текст на главной странице</p>
+            <p>текст на главной странице</p>
+            <p>текст на главной странице</p>
+            <hr />
+            <div class="article">
+                <h1>Заголовок статьи</h1>
+                <p>Текст статьи</p>
+                <p class="right">
+                    <span>12.08.2013 15:45</span>
+                    <br />
+                    <a href="#">Подробнее</a>
+                </p>
+            </div>  
+            <hr />
+            <div class="article">
+                <h1>Заголовок статьи</h1>
+                <p>Текст статьи</p>
+                <p class="right">
+                    <span>12.08.2013 15:45</span>
+                    <br />
+                    <a href="#">Подробнее</a>
+                </p>
+            </div> 
+            <hr />
+            <div class="article">
+                <h1>Заголовок статьи</h1>
+                <p>Текст статьи</p>
+                <p class="right">
+                    <span>12.08.2013 15:45</span>
+                    <br />
+                    <a href="#">Подробнее</a>
+                </p>
+            </div> 
+            <div id="pagination">
+                <p>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                </p>
+            </div>
+            <div class="clear"></div>
+            <hr />
+            <div id="footer">
+                <p>Все права защищены &copy; 2014</
+            </div>
+        </div>     
+        
+        
+        
+    </div>
+    
+</body>
+    
+    
+    
+  
+</html>
